@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/davis/CLionProjects/assignment2/cacheLab/cache.h
+stdlib.h
+-
+
+C:/Users/davis/CLionProjects/assignment2/cacheLab/main.c
+stdio.h
+-
+math.h
+-
+cache.h
+C:/Users/davis/CLionProjects/assignment2/cacheLab/cache.h
+string.h
+-
+
